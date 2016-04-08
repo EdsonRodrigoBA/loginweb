@@ -49,5 +49,12 @@ public class UsuarioDAO {
 			e.printStackTrace();
 		}
 	}
+	public void salvar(Usuario usuario){
+		if(usuario.getIdUsuario() != 0){
+			aleterar(usuario);
+		}else {
+			cadastrar(usuario);
+		}
+	}
 
 }

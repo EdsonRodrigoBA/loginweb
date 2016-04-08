@@ -2,12 +2,12 @@ package br.aprendendoweb.persistencia.entidade;
 
 public class Usuario {
 	
-	private int idUsuario;
+	private Integer idUsuario;
 	private String nome;
 	private String login;
 	private String senha;
 	
-	public int getIdUsuario() {
+	public Integer getIdUsuario() {
 		return idUsuario;
 	}
 	public void setIdUsuario(int idUsuario) {

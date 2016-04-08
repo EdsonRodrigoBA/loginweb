@@ -35,7 +35,6 @@ public class TesteUsuarioDAO {
 		System.out.println("Aleterado com Sucesso");
 	}
 	
-	
 	public static void testeExcluir(int idUsuario){
 		Usuario usuario = new Usuario();
 		usuario.setIdUsuario(idUsuario);		
