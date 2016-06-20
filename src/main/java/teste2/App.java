@@ -1,4 +1,4 @@
-package y;
+package teste2;
 
 /**
  * Hello world!
